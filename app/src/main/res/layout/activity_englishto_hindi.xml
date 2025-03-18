@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lessonTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English to Hindi Translation Lessons"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/lessonTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/lessonItem1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello: नमस्ते (Namaste)"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/lessonItem2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thank you: धन्यवाद (Dhanyavaad)"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/lessonItem3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Good morning: शुभ प्रभात (Shubh Prabhat)"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/lessonItem4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Goodbye: अलविदा (Alvida)"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/lessonItem5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes: हाँ (Haan)"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/lessonItem6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No: नहीं (Nahi)"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/lessonItem7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please: कृपया (Kripya)"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/lessonItem8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sorry: माफ़ कीजिए (Maaf Kijiye)"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/lessonItem9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Excuse me: माफ़ करें (Maaf Karein)"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/lessonItem10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How are you?: आप कैसे हैं? (Aap kaise hain?)"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/lessonItem11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What is your name?: आपका नाम क्या है? (Aapka naam kya hai?)"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/lessonItem12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Where are you from?: आप कहाँ से हैं? (Aap kahan se hain?)"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/lessonItem13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I don't understand: मुझे समझ में नहीं आता (Mujhe samajh mein nahi aata)"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/lessonItem14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Can you help me?: क्या आप मेरी मदद कर सकते हैं? (Kya aap meri madad kar sakte hain?)"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/lessonItem15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Good night: शुभ रात्रि (Shubh Raatri)"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

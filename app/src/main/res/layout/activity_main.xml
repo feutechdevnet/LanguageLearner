@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/lessonsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lessons"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:id="@+id/quizzesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quizzes"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/lessonsButton"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/communityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Community Forum"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/quizzesButton"
+        android:layout_marginTop="30dp" />
+</RelativeLayout>
