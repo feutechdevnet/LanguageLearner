@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Quizzes">
+    android:padding="16dp">
 
     <Button
-        android:id="@+id/backButton"
+        android:id="@+id/quizMandarin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Back"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_margin="16dp" />
+        android:text="Mandarin Quiz"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Welcome to the Quizzes Page"
-        android:gravity="center"
-        android:textSize="18sp" />
+    <Button
+        android:id="@+id/quizHindi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hindi Quiz"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/quizMandarin"
+        android:layout_marginTop="30dp" />
 
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/quizSpanish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spanish Quiz"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/quizHindi"
+        android:layout_marginTop="30dp" />
+</RelativeLayout>

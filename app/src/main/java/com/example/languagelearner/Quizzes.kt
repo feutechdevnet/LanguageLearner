@@ -12,14 +12,23 @@ class Quizzes : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_quizzes)
 
-        val backButton: Button = findViewById(R.id.backButton)
+        val quizMandarin: Button = findViewById(R.id.quizMandarin)
+        val quizHindi: Button = findViewById(R.id.quizHindi)
+        val quizSpanish: Button = findViewById(R.id.quizSpanish)
 
-        backButton.setOnClickListener {
-            // Navigate back to MainActivity (landing page)
-            val intent = Intent(this, MainActivity::class.java)
+        quizMandarin.setOnClickListener {
+            val intent = Intent(this, QuizMandarin::class.java)
             startActivity(intent)
-            // Optionally, finish() to remove the current activity from the back stack
-            finish()
+        }
+
+        quizHindi.setOnClickListener {
+            val intent = Intent(this, QuizHindi::class.java)
+            startActivity(intent)
+        }
+
+        quizSpanish.setOnClickListener {
+            val intent = Intent(this, QuizSpanish::class.java)
+            startActivity(intent)
         }
     }
 }
