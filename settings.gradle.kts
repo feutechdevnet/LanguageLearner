@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "LanguageLearner"
 include(":app")
- 
+include(":admin")

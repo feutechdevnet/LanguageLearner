@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.languagelearner"
+    namespace = "com.example.admin"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.languagelearner"
+        applicationId = "com.example.admin"
         minSdk = 27
         targetSdk = 35
         versionCode = 1
@@ -48,5 +48,3 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 }
-
-

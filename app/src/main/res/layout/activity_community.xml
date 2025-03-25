@@ -1,29 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Community">
+    android:orientation="vertical"
+    android:padding="16dp">
 
-    <Button
-        android:id="@+id/backButton"
+    <!-- Scrollable Table -->
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_margin="16dp"
-        android:text="Back"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="72dp" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Welcome to the Community Forum Page"
-        android:gravity="center"
-        android:textSize="18sp" />
+        android:stretchColumns="1"
+        android:layout_gravity="center"> <!-- Allows content to fill the table row -->
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- Table Header Row -->
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-medium" />
+        <TextView
+            android:text="Institution Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-medium" />
+        <TextView
+            android:text="Languages Offered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-medium" />
+    </TableRow>
+    </TableLayout>
+    </HorizontalScrollView>
+</LinearLayout>
+
