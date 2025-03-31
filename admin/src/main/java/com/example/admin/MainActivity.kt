@@ -14,11 +14,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
 
-        // Initialize View Binding
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Set click listener for upload button
         binding.upload.setOnClickListener {
             val intent = Intent(this, Create::class.java)
             startActivity(intent)
