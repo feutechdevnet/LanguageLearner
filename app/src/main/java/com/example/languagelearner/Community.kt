@@ -1,12 +1,12 @@
 package com.example.languagelearner
 
+import android.graphics.Color
 import android.os.Bundle
 import android.widget.TableLayout
 import android.widget.TableRow
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-
 
 class Community : AppCompatActivity() {
 
@@ -17,7 +17,23 @@ class Community : AppCompatActivity() {
 
         val tableLayout: TableLayout = findViewById(R.id.tableLayout)
 
-        // Sample data to be displayed in the table
+        // Header Row
+        val headerRow = TableRow(this)
+        val headers = listOf("ID", "Institution Name", "Languages Offered")
+
+        for (header in headers) {
+            val textView = TextView(this)
+            textView.text = header
+            textView.setPadding(16, 8, 16, 8)
+            textView.setBackgroundColor(Color.parseColor("#40E0D0")) // Turquoise
+            textView.setTextColor(Color.parseColor("#FFFFFF")) // White
+            textView.textSize = 16f
+            textView.setTypeface(null, android.graphics.Typeface.BOLD)
+            headerRow.addView(textView)
+        }
+        tableLayout.addView(headerRow)
+
+        // Sample data
         val data = listOf(
             listOf("1", "University of the Philippines Department of Linguistics", "Bahasa, Mandarin, Japanese, Korean, and Thai"),
             listOf("2", "Alliance Française de Manille", "French language"),
@@ -31,29 +47,23 @@ class Community : AppCompatActivity() {
             listOf("10", "Mapúa University", "Spanish, Mandarin, French, Japanese, Korean")
         )
 
-        // Loop through the data and dynamically add rows to the table
-        for (rowData in data) {
+        // Add rows dynamically
+        for ((index, rowData) in data.withIndex()) {
             val tableRow = TableRow(this)
+            val backgroundColor = if (index % 2 == 0) "#F5F5F5" else "#FFFFFF" // Alternating row colors
 
-            // Create TextViews for each cell
             for (cellData in rowData) {
                 val textView = TextView(this)
                 textView.text = cellData
                 textView.setPadding(16, 8, 16, 8)
-                textView.setSingleLine(false)  // Allow multiple lines for long data
-                textView.maxLines = 3          // Limit to 2 lines if the text is too long
+                textView.setBackgroundColor(Color.parseColor(backgroundColor))
+                textView.setSingleLine(false)
+                textView.maxLines = 3
                 textView.ellipsize = android.text.TextUtils.TruncateAt.END
                 tableRow.addView(textView)
             }
 
-            // Add the row to the table layout
             tableLayout.addView(tableRow)
         }
     }
 }
-
-
-
-
-
-
