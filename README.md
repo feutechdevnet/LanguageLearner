@@ -10,15 +10,15 @@ Language Learner is an interactive language learning Android app designed for st
 - Ranking & Sorting System – Helps users find top-rated learning resources.
 
 # Program Used
-- Kotlin (Android Studio for front-end development)
-- Database (for CRUD operations and user data storage)
-- Interactive UI (XML-based layout with a bright and engaging design)
+- Kotlin
+- Database
+- Interactive UI
 
 # Rules, Practices, and Principles
-- Always use LL- (Language Learner) as a prefix for project-related files.
-- Maintain CamelCase naming convention for files and variables (e.g., lessonItemList.xml).
+- Always use LL as a prefix for project-related files.
+- Maintain CamelCase naming convention for files and variables
 - Use External CSS for web-based resources.
-- Keep structured folders for different functionalities (e.g., Lessons, Quizzes, Community).
+- Keep structured folders for different functionalities
 - Maintain clear documentation for database structures and features.
   
 # File Structure Guide
