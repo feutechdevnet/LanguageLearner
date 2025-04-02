@@ -9,10 +9,10 @@ Language Learner is an interactive language learning Android app designed for st
 - Platform & Review System – Users can submit and review language learning platforms, with admin verification.
 - Ranking & Sorting System – Helps users find top-rated learning resources.
 
-# Technology
-Kotlin (Android Studio for front-end development)
-Database (for CRUD operations and user data storage)
-Interactive UI (XML-based layout with a bright and engaging design)
+# Program Used
+- Kotlin (Android Studio for front-end development)
+- Database (for CRUD operations and user data storage)
+- Interactive UI (XML-based layout with a bright and engaging design)
 
 # Rules, Practices, and Principles
 - Always use LL- (Language Learner) as a prefix for project-related files.
