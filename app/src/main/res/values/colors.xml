@@ -2,4 +2,12 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="pastelblue">#bae1ff</color>
+    <color name="pastelgreen">#baffc9</color>
+    <color name="pastelyellow">#ffffba</color>
+    <color name="pastelorange">#ffdfba</color>
+    <color name="pastelred">#ffb3ba</color>
+
+    <color name="turquoise">#40E0D0</color>
+    <color name="yellow">#FFFF00</color>
 </resources>

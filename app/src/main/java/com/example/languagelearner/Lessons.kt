@@ -10,7 +10,7 @@ class Lessons : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.lessons)
+        setContentView(R.layout.activity_lessons)
 
         // Bind buttons using findViewById
         val engtoMandarin: Button = findViewById(R.id.engtoMandarin)

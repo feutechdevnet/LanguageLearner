@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/pastelyellow"
+    android:textColor="#000000"
     tools:context=".MainActivity">
 
     <TextView
@@ -12,7 +14,8 @@
         android:layout_height="wrap_content"
         android:text="English to Hindi Translation Lessons"
         android:textSize="20sp"
-        android:layout_marginTop="16dp"
+        android:textColor="#000000"
+        android:layout_marginTop="60dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:textAlignment="center"
@@ -41,6 +44,7 @@
                 android:layout_height="wrap_content"
                 android:text="Hello: नमस्ते (Namaste)"
                 android:textSize="18sp"
+                android:textColor="#000000"
                 android:layout_marginBottom="8dp"/>
 
             <TextView
@@ -49,6 +53,7 @@
                 android:layout_height="wrap_content"
                 android:text="Thank you: धन्यवाद (Dhanyavaad)"
                 android:textSize="18sp"
+                android:textColor="#000000"
                 android:layout_marginBottom="8dp"/>
 
             <TextView
@@ -57,6 +62,7 @@
                 android:layout_height="wrap_content"
                 android:text="Good morning: शुभ प्रभात (Shubh Prabhat)"
                 android:textSize="18sp"
+                android:textColor="#000000"
                 android:layout_marginBottom="8dp"/>
 
             <TextView
@@ -65,6 +71,7 @@
                 android:layout_height="wrap_content"
                 android:text="Goodbye: अलविदा (Alvida)"
                 android:textSize="18sp"
+                android:textColor="#000000"
                 android:layout_marginBottom="8dp"/>
 
             <TextView
@@ -73,6 +80,7 @@
                 android:layout_height="wrap_content"
                 android:text="Yes: हाँ (Haan)"
                 android:textSize="18sp"
+                android:textColor="#000000"
                 android:layout_marginBottom="8dp"/>
 
             <TextView
@@ -81,6 +89,7 @@
                 android:layout_height="wrap_content"
                 android:text="No: नहीं (Nahi)"
                 android:textSize="18sp"
+                android:textColor="#000000"
                 android:layout_marginBottom="8dp"/>
 
             <TextView
@@ -89,6 +98,7 @@
                 android:layout_height="wrap_content"
                 android:text="Please: कृपया (Kripya)"
                 android:textSize="18sp"
+                android:textColor="#000000"
                 android:layout_marginBottom="8dp"/>
 
             <TextView
@@ -97,6 +107,7 @@
                 android:layout_height="wrap_content"
                 android:text="Sorry: माफ़ कीजिए (Maaf Kijiye)"
                 android:textSize="18sp"
+                android:textColor="#000000"
                 android:layout_marginBottom="8dp"/>
 
             <TextView
@@ -105,6 +116,7 @@
                 android:layout_height="wrap_content"
                 android:text="Excuse me: माफ़ करें (Maaf Karein)"
                 android:textSize="18sp"
+                android:textColor="#000000"
                 android:layout_marginBottom="8dp"/>
 
             <TextView
@@ -113,6 +125,7 @@
                 android:layout_height="wrap_content"
                 android:text="How are you?: आप कैसे हैं? (Aap kaise hain?)"
                 android:textSize="18sp"
+                android:textColor="#000000"
                 android:layout_marginBottom="8dp"/>
 
             <TextView
@@ -121,6 +134,7 @@
                 android:layout_height="wrap_content"
                 android:text="What is your name?: आपका नाम क्या है? (Aapka naam kya hai?)"
                 android:textSize="18sp"
+                android:textColor="#000000"
                 android:layout_marginBottom="8dp"/>
 
             <TextView
@@ -129,6 +143,7 @@
                 android:layout_height="wrap_content"
                 android:text="Where are you from?: आप कहाँ से हैं? (Aap kahan se hain?)"
                 android:textSize="18sp"
+                android:textColor="#000000"
                 android:layout_marginBottom="8dp"/>
 
             <TextView
@@ -137,6 +152,7 @@
                 android:layout_height="wrap_content"
                 android:text="I don't understand: मुझे समझ में नहीं आता (Mujhe samajh mein nahi aata)"
                 android:textSize="18sp"
+                android:textColor="#000000"
                 android:layout_marginBottom="8dp"/>
 
             <TextView
@@ -145,6 +161,7 @@
                 android:layout_height="wrap_content"
                 android:text="Can you help me?: क्या आप मेरी मदद कर सकते हैं? (Kya aap meri madad kar sakte hain?)"
                 android:textSize="18sp"
+                android:textColor="#000000"
                 android:layout_marginBottom="8dp"/>
 
             <TextView
@@ -153,6 +170,7 @@
                 android:layout_height="wrap_content"
                 android:text="Good night: शुभ रात्रि (Shubh Raatri)"
                 android:textSize="18sp"
+                android:textColor="#000000"
                 android:layout_marginBottom="8dp"/>
 
         </LinearLayout>
