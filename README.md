@@ -12,7 +12,6 @@ Language Learner is an interactive language learning Android app designed for st
 # Program Used
 - Kotlin
 - Database
-- Interactive UI
 
 # Rules, Practices, and Principles
 - Always use LL as a prefix for project-related files.
