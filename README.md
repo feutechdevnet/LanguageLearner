@@ -2,14 +2,14 @@
 
 Language Learner is an interactive language learning Android app designed for students, travelers, and language enthusiasts eager to explore new languages and cultures. The app provides engaging lessons, gamified quizzes, and real-time language exchange opportunities to make learning fun and effective. Built using Kotlin in Android Studio, the app integrates database functionality to store user progress, rankings, and lesson data efficiently.
 
-* Key Components
+# Key Components
 - Interactive Lessons – Covers essential vocabulary, phrases, and grammar.
 - Gamified Quizzes – Reinforces learning through fun challenges and rewards.
 - Community Language Exchange – Enables real-time practice with other learners.
 - Platform & Review System – Users can submit and review language learning platforms, with admin verification.
 - Ranking & Sorting System – Helps users find top-rated learning resources.
 
-* Technology
+# Technology
 Kotlin (Android Studio for front-end development)
 Database (for CRUD operations and user data storage)
 Interactive UI (XML-based layout with a bright and engaging design)
